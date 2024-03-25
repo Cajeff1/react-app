@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 2px;
+}
+.controls button {
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+}
+.display {
+  font-size: 30px;
+}
